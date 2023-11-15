@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Victória Tassi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="directionAround dirColumn">
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+   <header id="header"class="directionAround">
+   <div id="headerE"class="directionAround">
+    <div id="perfil-foto">
+        <img src="img/perfil.jpg" alt="Perfil">
+    </div>
+    
+    <div id="minhaInfo" class="dirColumn directionAround">
+        <h1>Victória Tassi</h1>
+        <h3>Estudante de Sistemas para Internet,
+            <br>2º semestre, no turno da manhã na Fatec Taquaritinga no ano de 2023.
+        </h3>
+    </div>
+
+   </div>
+    <hr>
+    
+    <nav>
+        <ul id="ol-header">
+            <li><a href="#section-one">Sobre Mim</a></li>
+            <li><a href="#section-two">Formação</a></li>
+            <li><a href="#section-three">Contato</a></li>
+        </ul>
+    </nav>
+   </header>
+   <main class="center dirColumn">
+    <section id="section-one" class="center dirColumn">
+        <h2>Resumo Pessoal</h2> 
+    <p class="center">Meu nome é Victória Tassi, tenho 18 anos,sou uma mulher com paixão notável por jogos, 
+        leitura, música e tudo relacionado à área tecnológica.
+        Meu objetivo é se tornar desenvolvedora web e contribuir com o crescimento tecnológico do mundo. 
+        Tenho uma mente criativa e inovadora, pronta para explorar as fronteiras da área da tecnologia, 
+        enquanto me divirto com jogos e me mantenho informada sobre as últimas tendências da área.
+        <br>Com meus interesses, espero impulsionar avanços e criar impactos positivos em minha comunidade. 
+        </p>
+        
+    </section>
+    <hr>
+    <section id="section-two" class="center dirColumn">
+        <div id="academicoh4" class="center"><h4>Resumo Acadêmico</h4></div>
+        <div id="Estudos" class="center">
+            <div id="médio" class="center dirColumn">
+                <p>Ensino Médio Técnico em Açucar e Álcool</p>
+                <p>Instituto Federal Câmpus Matão</p>
+                <p>2020-2022</p> 
+            </div>
+            <div id="faculdade" class="center dirColumn">
+                <p>Sistemas para Internet</p>
+                <p>Fatec Taquaritinga</p>
+                <p>2023-2025</p>
+            </div>
+            <div id="inglês" class="center dirColumn">
+                <p>Inglês- Nível A2</p>
+                <p>Real Life English Center</p>
+                <p>2023-2026</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-three" class="directionAround dirColumn">
+        <h5>Contato</h5>
+        <p>Sinta-se à vontade para entrar em contato comigo enviando 
+        o formulário abaixo e entrarei em contato com você o mais breve possível.</p>
+        <form action="" class="form_contact directionAround dirColumn" method="post">
+           <div id="Nome" class="directionAround dirColumn">
+            <label for="seunome">Nome</label>
+            <input type="text" name="seunome" id="seunome" placeholder="Digite seu Nome">
+           </div>
+           <div id="email" class="directionAround dirColumn" >
+               <label for="seuemail">Email</label>
+               <input type="email" name="seuemail" id="seemail"  placeholder="Digite seu Email">
+           </div>
+           <div id="mensagem" class="directionAround dirColumn" >
+               <label for="suamensagem">Mensagem</label>
+               <textarea name="suamensagem" id="suamensagem" cols="30" rows="10" placeholder="Digite sua Mensagem"></textarea>
+           </div>
+           <button type="submit">Enviar</button>
+        </form>
+        
+    </section>
+   </main>
+   <footer>
+    
+   </footer>
+</body>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget({
+      rootPah: '/app',
+      personalization: 'https://vlibras.gov.br/config/default_logo.json',
+      opacity: 0.5,
+      position: 'R',
+      avatar: 'random',
+  });
+</script>
+</html>
