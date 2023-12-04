@@ -240,7 +240,7 @@ svg{
    #redes-sociais{
        display: flex;
        align-items: center;
-       justify-content: space-evenly;
+       justify-content: center;
        flex-direction: row;
        height: 80%;
        font-size: 1.1em;
